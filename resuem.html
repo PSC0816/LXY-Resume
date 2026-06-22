@@ -1,0 +1,787 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src * 'unsafe-inline'; script-src * 'unsafe-inline'; img-src * data: blob:; font-src * data:; media-src * data: blob:; connect-src 'none'; form-action 'none'; frame-src 'none'; object-src 'none'; base-uri 'none'">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>李欣宇 - Java后端开发工程师（全栈）简历</title>
+    <script src="https://image.uc.cn/s/uae/g/3n/mos-production/fontawesome-free-7.1.0-web/js/all.min.js"></script>
+    <script src="https://image.uc.cn/s/uae/g/3n/mos-production/0915/3.4.17.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+        
+        * {
+            font-family: 'Inter', 'Segoe UI', 'Microsoft YaHei', sans-serif;
+        }
+        
+        body {
+            background-color: #f8fafc;
+            color: #334155;
+        }
+        
+        .resume-container {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        
+        .section-card {
+            background-color: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+        
+        .section-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.07), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        }
+        
+        .section-title {
+            position: relative;
+            padding-left: 1.5rem;
+        }
+        
+        .section-title::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            width: 4px;
+            background: linear-gradient(to bottom, #3b82f6, #8b5cf6);
+            border-radius: 2px;
+        }
+        
+        .skill-tag {
+            display: inline-block;
+            background-color: #e0f2fe;
+            color: #0369a1;
+            padding: 0.25rem 0.75rem;
+            border-radius: 20px;
+            font-size: 0.875rem;
+            font-weight: 500;
+            margin: 0.25rem;
+        }
+        
+        .timeline-item {
+            position: relative;
+            padding-left: 2rem;
+            margin-bottom: 2rem;
+        }
+        
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0.5rem;
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background-color: #3b82f6;
+            border: 2px solid white;
+            box-shadow: 0 0 0 2px #3b82f6;
+        }
+        
+        .timeline-item::after {
+            content: '';
+            position: absolute;
+            left: 5px;
+            top: 1.5rem;
+            bottom: -2rem;
+            width: 2px;
+            background-color: #e2e8f0;
+        }
+        
+        .timeline-item:last-child::after {
+            display: none;
+        }
+        
+        .contact-icon {
+            width: 40px;
+            height: 40px;
+            border-radius: 10px;
+            background-color: #f1f5f9;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #3b82f6;
+        }
+        
+        .print-button {
+            position: fixed;
+            bottom: 2rem;
+            right: 2rem;
+            width: 56px;
+            height: 56px;
+            border-radius: 50%;
+            background-color: #3b82f6;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 4px 12px rgba(59, 130, 246, 0.3);
+            cursor: pointer;
+            z-index: 100;
+            transition: all 0.3s ease;
+        }
+        
+        .print-button:hover {
+            background-color: #2563eb;
+            transform: scale(1.05);
+        }
+        
+        @media print {
+            .print-button {
+                display: none;
+            }
+            
+            .section-card {
+                box-shadow: none;
+                border: 1px solid #e2e8f0;
+            }
+            
+            body {
+                background-color: white;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .resume-container {
+                padding: 0 1rem;
+            }
+            
+            .section-card {
+                padding: 1.5rem;
+            }
+            
+            .print-button {
+                bottom: 1rem;
+                right: 1rem;
+            }
+        }
+    </style>
+<script>
+!(function(j,a,g){j.__itrace_conf = {bid: 'kt40h0wl-koyh4af8',rel: '', uid: '61a6e242-7d61-41cd-af75-6ece46019900' ,  spa: true, plugins:['jserror','interface','perf','resource','flow','blank']};var b = a.createElement("script");var d = a.getElementsByTagName("script")[0];b.type = "text/javascript";b.crossorigin = true;b.async = true;b.onload = function(){j.__itrace && j.__itrace.setReady()};d.parentNode.insertBefore(b,d);b.src = g})(window, document, "https://g.alicdn.com/woodpeckerx/itrace-next/itrace.iife.js")
+</script>
+</head>
+<body class="py-8 px-4 md:py-12">
+    <div class="resume-container">
+        <!-- 头部信息 -->
+        <header class="mb-10">
+            <div class="text-center mb-8">
+                <h1 class="text-4xl md:text-5xl font-bold text-slate-800 mb-2">李欣宇</h1>
+                <div class="inline-block px-4 py-1 bg-blue-50 text-blue-700 rounded-full font-semibold text-lg">
+                    Java后端开发工程师（全栈）
+                </div>
+            </div>
+            
+            <div class="section-card p-6 md:p-8 mb-8">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <!-- 基本信息 -->
+                    <div>
+                        <h2 class="text-xl font-bold text-slate-800 mb-4 section-title">基本信息</h2>
+                        <div class="space-y-3">
+                            <div class="flex items-center">
+                                <div class="contact-icon mr-3">
+                                    <i class="fas fa-user"></i>
+                                </div>
+                                <div>
+                                    <div class="text-sm text-slate-500">姓名</div>
+                                    <div class="font-medium">李欣宇</div>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-center">
+                                <div class="contact-icon mr-3">
+                                    <i class="fas fa-birthday-cake"></i>
+                                </div>
+                                <div>
+                                    <div class="text-sm text-slate-500">出生日期</div>
+                                    <div class="font-medium">1998.05</div>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-center">
+                                <div class="contact-icon mr-3">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </div>
+                                <div>
+                                    <div class="text-sm text-slate-500">目前所在</div>
+                                    <div class="font-medium">西安市</div>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-center">
+                                <div class="contact-icon mr-3">
+                                    <i class="fas fa-home"></i>
+                                </div>
+                                <div>
+                                    <div class="text-sm text-slate-500">籍贯</div>
+                                    <div class="font-medium">吉林省松原市</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- 联系方式 -->
+                    <div>
+                        <h2 class="text-xl font-bold text-slate-800 mb-4 section-title">联系方式</h2>
+                        <div class="space-y-3">
+                            <div class="flex items-center">
+                                <div class="contact-icon mr-3">
+                                    <i class="fas fa-phone"></i>
+                                </div>
+                                <div>
+                                    <div class="text-sm text-slate-500">联系电话</div>
+                                    <div class="font-medium">18209207989</div>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-center">
+                                <div class="contact-icon mr-3">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <div>
+                                    <div class="text-sm text-slate-500">电子信箱</div>
+                                    <div class="font-medium">lxypsc1314@163.com</div>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-center">
+                                <div class="contact-icon mr-3">
+                                    <i class="fas fa-briefcase"></i>
+                                </div>
+                                <div>
+                                    <div class="text-sm text-slate-500">到岗日期</div>
+                                    <div class="font-medium">随时</div>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-center">
+                                <div class="contact-icon mr-3">
+                                    <i class="fas fa-map-pin"></i>
+                                </div>
+                                <div>
+                                    <div class="text-sm text-slate-500">工作地点</div>
+                                    <div class="font-medium">西安</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- 求职意向 -->
+                <div class="mt-8 pt-6 border-t border-slate-100">
+                    <div class="flex flex-wrap items-center justify-between">
+                        <div>
+                            <h3 class="font-bold text-slate-800 mb-1">求职意向</h3>
+                            <p class="text-slate-600">Java后端开发工程师(全栈)</p>
+                        </div>
+                        <div class="bg-amber-50 text-amber-800 px-4 py-2 rounded-lg font-bold">
+                            期望薪资: 12k-16k
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        
+        <main class="space-y-8">
+            <!-- 教育经历 -->
+            <section class="section-card p-6 md:p-8">
+                <h2 class="text-2xl font-bold text-slate-800 mb-6 section-title">教育经历</h2>
+                
+                <div class="timeline-item">
+                    <div class="flex flex-col md:flex-row md:items-start md:justify-between mb-2">
+                        <h3 class="text-xl font-bold text-slate-800">沈阳工学院</h3>
+                        <div class="text-blue-600 font-semibold bg-blue-50 px-3 py-1 rounded-full inline-block mt-1 md:mt-0">
+                            2016年9月 - 2020年7月
+                        </div>
+                    </div>
+                    <div class="text-slate-700 font-medium mb-3">软件工程 | 本科</div>
+                    
+                    <div class="mb-4">
+                        <h4 class="font-bold text-slate-800 mb-2">主修课程：</h4>
+                        <div class="flex flex-wrap">
+                            <span class="skill-tag">C语言程序设计</span>
+                            <span class="skill-tag">C#程序设计</span>
+                            <span class="skill-tag">Web程序设计</span>
+                            <span class="skill-tag">数据库原理及应用</span>
+                            <span class="skill-tag">MySql数据库</span>
+                            <span class="skill-tag">操作系统</span>
+                            <span class="skill-tag">软件建模</span>
+                            <span class="skill-tag">软件工程</span>
+                            <span class="skill-tag">软件项目管理</span>
+                            <span class="skill-tag">Java程序设计</span>
+                            <span class="skill-tag">软件测试</span>
+                            <span class="skill-tag">数据结构</span>
+                            <span class="skill-tag">计算机组成原理</span>
+                            <span class="skill-tag">Linux操作系统</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- 专业技能 -->
+            <section class="section-card p-6 md:p-8">
+                <h2 class="text-2xl font-bold text-slate-800 mb-6 section-title">专业技能</h2>
+                
+                <div class="space-y-6">
+                    <div>
+                        <h3 class="text-lg font-bold text-slate-800 mb-3 flex items-center">
+                            <i class="fas fa-code text-blue-500 mr-2"></i>后端开发
+                        </h3>
+                        <p class="text-slate-700 mb-3">熟练掌握Java语言；精通Spring全家桶（Spring Boot, Spring MVC, MyBatis, MyBatisPlus）；深入理解Spring Cloud微服务架构与分布式体系设计</p>
+                        <div class="flex flex-wrap">
+                            <span class="skill-tag bg-blue-50 text-blue-700">Java</span>
+                            <span class="skill-tag bg-blue-50 text-blue-700">Spring Boot</span>
+                            <span class="skill-tag bg-blue-50 text-blue-700">Spring MVC</span>
+                            <span class="skill-tag bg-blue-50 text-blue-700">MyBatis</span>
+                            <span class="skill-tag bg-blue-50 text-blue-700">Spring Cloud</span>
+                            <span class="skill-tag bg-blue-50 text-blue-700">微服务架构</span>
+                        </div>
+                    </div>
+                    
+                    <div>
+                        <h3 class="text-lg font-bold text-slate-800 mb-3 flex items-center">
+                            <i class="fas fa-desktop text-green-500 mr-2"></i>前端技术
+                        </h3>
+                        <p class="text-slate-700 mb-3">了解Vue框架并有实际项目开发经验；掌握HTML/CSS/JavaScript；曾使用AngularJS进行PC端页面开发</p>
+                        <div class="flex flex-wrap">
+                            <span class="skill-tag bg-green-50 text-green-700">Vue</span>
+                            <span class="skill-tag bg-green-50 text-green-700">HTML/CSS/JS</span>
+                            <span class="skill-tag bg-green-50 text-green-700">AngularJS</span>
+                        </div>
+                    </div>
+                    
+                    <div>
+                        <h3 class="text-lg font-bold text-slate-800 mb-3 flex items-center">
+                            <i class="fas fa-mobile-alt text-purple-500 mr-2"></i>微信生态
+                        </h3>
+                        <p class="text-slate-700 mb-3">掌握微信公众号及企业微信整体业务流程，可独立完成身份认证、API对接、事件回调处理、客户信息自动化管理等功能搭建</p>
+                        <div class="flex flex-wrap">
+                            <span class="skill-tag bg-purple-50 text-purple-700">微信公众号</span>
+                            <span class="skill-tag bg-purple-50 text-purple-700">企业微信</span>
+                            <span class="skill-tag bg-purple-50 text-purple-700">OAuth2.0</span>
+                        </div>
+                    </div>
+                    
+                    <div>
+                        <h3 class="text-lg font-bold text-slate-800 mb-3 flex items-center">
+                            <i class="fas fa-server text-amber-500 mr-2"></i>中间件与数据库
+                        </h3>
+                        <p class="text-slate-700 mb-3">熟悉或熟练使用Redis、RabbitMQ、Kafka、ZooKeeper、Dubbo、Maven、Jenkins；熟练运用MySQL、SQL Server、Oracle数据库，具备丰富的数据库优化经验</p>
+                        <div class="flex flex-wrap">
+                            <span class="skill-tag bg-amber-50 text-amber-700">Redis</span>
+                            <span class="skill-tag bg-amber-50 text-amber-700">RabbitMQ</span>
+                            <span class="skill-tag bg-amber-50 text-amber-700">Kafka</span>
+                            <span class="skill-tag bg-amber-50 text-amber-700">ZooKeeper</span>
+                            <span class="skill-tag bg-amber-50 text-amber-700">Dubbo</span>
+                            <span class="skill-tag bg-amber-50 text-amber-700">MySQL</span>
+                            <span class="skill-tag bg-amber-50 text-amber-700">Oracle</span>
+                            <span class="skill-tag bg-amber-50 text-amber-700">SQL Server</span>
+                        </div>
+                    </div>
+                    
+                    <div>
+                        <h3 class="text-lg font-bold text-slate-800 mb-3 flex items-center">
+                            <i class="fas fa-cloud text-cyan-500 mr-2"></i>DevOps与云原生
+                        </h3>
+                        <p class="text-slate-700 mb-3">掌握Kubernetes (K8S) + Docker容器化部署；熟悉Jenkins、SonarQube等DevOps工具链；具备Arm64环境适配经验；使用Keycloak实现统一身份认证；掌握Gateway网关配置与管理</p>
+                        <div class="flex flex-wrap">
+                            <span class="skill-tag bg-cyan-50 text-cyan-700">Kubernetes</span>
+                            <span class="skill-tag bg-cyan-50 text-cyan-700">Docker</span>
+                            <span class="skill-tag bg-cyan-50 text-cyan-700">Jenkins</span>
+                            <span class="skill-tag bg-cyan-50 text-cyan-700">SonarQube</span>
+                            <span class="skill-tag bg-cyan-50 text-cyan-700">Keycloak</span>
+                            <span class="skill-tag bg-cyan-50 text-cyan-700">Gateway</span>
+                            <span class="skill-tag bg-cyan-50 text-cyan-700">MinIO</span>
+                        </div>
+                    </div>
+                    
+                    <div>
+                        <h3 class="text-lg font-bold text-slate-800 mb-3 flex items-center">
+                            <i class="fas fa-robot text-pink-500 mr-2"></i>AI工程化探索
+                        </h3>
+                        <p class="text-slate-700 mb-3">运用AI进行代码优化与智能模块开发，如基于自然语言生成Flowable工作流微服务、任务进度查询Agent、任务分配MCP等，采用ndrej-karpathy-skills:karpathy-guidelines作为约束指导</p>
+                        <div class="flex flex-wrap">
+                            <span class="skill-tag bg-pink-50 text-pink-700">AI代码优化</span>
+                            <span class="skill-tag bg-pink-50 text-pink-700">Flowable工作流</span>
+                            <span class="skill-tag bg-pink-50 text-pink-700">Agent开发</span>
+                            <span class="skill-tag bg-pink-50 text-pink-700">MCP协议</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- 项目经验 -->
+            <section class="section-card p-6 md:p-8">
+                <h2 class="text-2xl font-bold text-slate-800 mb-6 section-title">项目经验</h2>
+                
+                <div class="space-y-8">
+                    <!-- 项目1 -->
+                    <div class="timeline-item">
+                        <div class="flex flex-col md:flex-row md:items-start md:justify-between mb-2">
+                            <h3 class="text-xl font-bold text-slate-800">1. 巴斯夫化工厂项目开发</h3>
+                            <div class="text-slate-600 font-medium">
+                                大连新致软件公司 | 2019年8月 - 2020年10月
+                            </div>
+                        </div>
+                        <p class="text-slate-700 mb-4">为巴斯夫化工厂开发管理后台系统，实现工厂运营数据可视化与流程管控。</p>
+                        
+                        <div class="mb-3">
+                            <h4 class="font-bold text-slate-800 mb-1">技术栈：</h4>
+                            <div class="flex flex-wrap">
+                                <span class="skill-tag">Vue</span>
+                                <span class="skill-tag">Spring Boot</span>
+                                <span class="skill-tag">MyBatis</span>
+                                <span class="skill-tag">MySQL</span>
+                                <span class="skill-tag">MongoDB</span>
+                            </div>
+                        </div>
+                        
+                        <div>
+                            <h4 class="font-bold text-slate-800 mb-1">职责与成果：</h4>
+                            <ul class="list-disc pl-5 text-slate-700 space-y-1">
+                                <li>参与项目初期功能分析与页面设计</li>
+                                <li>实现前后端逻辑交互与页面渲染</li>
+                                <li>完成数据采集、处理与展示模块开发</li>
+                                <li>支持多源异构数据存储与访问机制</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <!-- 项目2 -->
+                    <div class="timeline-item">
+                        <div class="flex flex-col md:flex-row md:items-start md:justify-between mb-2">
+                            <h3 class="text-xl font-bold text-slate-800">2. 优俏货项目维护</h3>
+                            <div class="text-slate-600 font-medium">
+                                大连新致软件公司 | 2019年8月 - 2020年10月
+                            </div>
+                        </div>
+                        <p class="text-slate-700 mb-4">中视优俏货海外商品销售系统的维护项目，涉及管理后台与小程序双端。</p>
+                        
+                        <div class="mb-3">
+                            <h4 class="font-bold text-slate-800 mb-1">技术栈：</h4>
+                            <div class="flex flex-wrap">
+                                <span class="skill-tag">HTML/CSS/JS</span>
+                                <span class="skill-tag">Vue</span>
+                                <span class="skill-tag">Java MVC</span>
+                                <span class="skill-tag">MySQL</span>
+                            </div>
+                        </div>
+                        
+                        <div>
+                            <h4 class="font-bold text-slate-800 mb-1">职责与成果：</h4>
+                            <ul class="list-disc pl-5 text-slate-700 space-y-1">
+                                <li>负责管理后台页面维护与功能迭代</li>
+                                <li>协助小程序端界面更新与接口联调</li>
+                                <li>维护Java后端业务逻辑，保障系统稳定性</li>
+                                <li>优化数据库查询效率，提升响应速度</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <!-- 项目3 -->
+                    <div class="timeline-item">
+                        <div class="flex flex-col md:flex-row md:items-start md:justify-between mb-2">
+                            <h3 class="text-xl font-bold text-slate-800">3. 尤妮佳项目开发</h3>
+                            <div class="text-slate-600 font-medium">
+                                大连勇进软件公司 | 2020年11月 - 2021年5月
+                            </div>
+                        </div>
+                        <p class="text-slate-700 mb-4">为尤妮佳有限公司定制开发企业管理后台系统。</p>
+                        
+                        <div class="mb-3">
+                            <h4 class="font-bold text-slate-800 mb-1">技术栈：</h4>
+                            <div class="flex flex-wrap">
+                                <span class="skill-tag">Vue</span>
+                                <span class="skill-tag">Spring MVC</span>
+                                <span class="skill-tag">MyBatis</span>
+                                <span class="skill-tag">Oracle</span>
+                                <span class="skill-tag">JDK 1.8</span>
+                            </div>
+                        </div>
+                        
+                        <div>
+                            <h4 class="font-bold text-slate-800 mb-1">职责与成果：</h4>
+                            <ul class="list-disc pl-5 text-slate-700 space-y-1">
+                                <li>独立完成前端页面开发与路由配置</li>
+                                <li>实现核心业务模块的后端逻辑编码</li>
+                                <li>配合Oracle数据库完成复杂查询与事务控制</li>
+                                <li>保证系统在高并发环境下的稳定运行</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <!-- 项目4 -->
+                    <div class="timeline-item">
+                        <div class="flex flex-col md:flex-row md:items-start md:justify-between mb-2">
+                            <h3 class="text-xl font-bold text-slate-800">4. 京瓷项目开发</h3>
+                            <div class="text-slate-600 font-medium">
+                                大连勇进软件公司 | 2020年11月 - 2021年5月
+                            </div>
+                        </div>
+                        <p class="text-slate-700 mb-4">为京瓷集团开发资产管理系统，支持商品入库、在库、出库及盘点管理，并配合手持设备扫码操作。</p>
+                        
+                        <div class="mb-3">
+                            <h4 class="font-bold text-slate-800 mb-1">技术栈：</h4>
+                            <div class="flex flex-wrap">
+                                <span class="skill-tag">HTML/CSS/AngularJS</span>
+                                <span class="skill-tag">Spring MVC</span>
+                                <span class="skill-tag">DbFlute</span>
+                                <span class="skill-tag">MySQL</span>
+                                <span class="skill-tag">手持机软件</span>
+                            </div>
+                        </div>
+                        
+                        <div>
+                            <h4 class="font-bold text-slate-800 mb-1">职责与成果：</h4>
+                            <ul class="list-disc pl-5 text-slate-700 space-y-1">
+                                <li>开发PC端管理界面，实现资产状态实时监控</li>
+                                <li>对接手持设备扫码数据，完成入库/出库记录同步</li>
+                                <li>使用DbFlute框架进行ORM映射与SQL生成</li>
+                                <li>提升库存管理精度与操作便捷性</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <!-- 项目5 -->
+                    <div class="timeline-item">
+                        <div class="flex flex-col md:flex-row md:items-start md:justify-between mb-2">
+                            <h3 class="text-xl font-bold text-slate-800">5. 辽宁联通公众号、App引流活动开发</h3>
+                            <div class="text-slate-600 font-medium">
+                                沈阳林科软件技术公司 | 2021年6月 - 2022年6月
+                            </div>
+                        </div>
+                        <p class="text-slate-700 mb-4">开发辽宁联通公众号与App中的用户互动活动模块，包括转盘抽奖、答题挑战、助力拉新等营销功能。</p>
+                        
+                        <div class="mb-3">
+                            <h4 class="font-bold text-slate-800 mb-1">技术栈：</h4>
+                            <div class="flex flex-wrap">
+                                <span class="skill-tag">Spring Boot</span>
+                                <span class="skill-tag">MyBatis Plus</span>
+                                <span class="skill-tag">Redis</span>
+                                <span class="skill-tag">RabbitMQ</span>
+                                <span class="skill-tag">Dubbo</span>
+                                <span class="skill-tag">ZooKeeper</span>
+                            </div>
+                        </div>
+                        
+                        <div>
+                            <h4 class="font-bold text-slate-800 mb-1">职责与成果：</h4>
+                            <ul class="list-disc pl-5 text-slate-700 space-y-1">
+                                <li>主导活动模块的设计与开发</li>
+                                <li>利用Redis实现高并发下的防刷机制与状态一致性</li>
+                                <li>引入RabbitMQ实现异步解耦，提升系统吞吐量</li>
+                                <li>构建Dubbo服务治理体系，增强系统可扩展性</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <!-- 项目6 -->
+                    <div class="timeline-item">
+                        <div class="flex flex-col md:flex-row md:items-start md:justify-between mb-2">
+                            <h3 class="text-xl font-bold text-slate-800">6. 辽宁企业微信引流活动开发</h3>
+                            <div class="text-slate-600 font-medium">
+                                沈阳林科软件技术公司 | 2021年6月 - 2022年6月
+                            </div>
+                        </div>
+                        <p class="text-slate-700 mb-4">自主搭建辽宁联通企业微信服务体系，支撑员工与客户之间的自动化运营与消息推送。</p>
+                        
+                        <div class="mb-3">
+                            <h4 class="font-bold text-slate-800 mb-1">技术栈：</h4>
+                            <div class="flex flex-wrap">
+                                <span class="skill-tag">BladeX</span>
+                                <span class="skill-tag">Spring Cloud</span>
+                                <span class="skill-tag">Nacos</span>
+                                <span class="skill-tag">MyBatis Plus</span>
+                                <span class="skill-tag">Redis</span>
+                                <span class="skill-tag">RabbitMQ</span>
+                            </div>
+                        </div>
+                        
+                        <div>
+                            <h4 class="font-bold text-slate-800 mb-1">职责与成果：</h4>
+                            <ul class="list-disc pl-5 text-slate-700 space-y-1">
+                                <li>自主完成企业微信服务端搭建，包括OAuth2.0身份认证、成员管理、客户API接入</li>
+                                <li>实现企业微信人员变动事件回调处理机制</li>
+                                <li>使用Nacos实现微服务动态注册与健康检查</li>
+                                <li>利用RabbitMQ处理大量异步任务，避免主线程阻塞</li>
+                                <li>构建高可用、可伸缩的企业级微信运营平台</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <!-- 项目7 -->
+                    <div class="timeline-item">
+                        <div class="flex flex-col md:flex-row md:items-start md:justify-between mb-2">
+                            <h3 class="text-xl font-bold text-slate-800">7. 浙商银行OA系统开发</h3>
+                            <div class="text-slate-600 font-medium">
+                                浙商银行 | 2022年7月 - 2024年9月
+                            </div>
+                        </div>
+                        <p class="text-slate-700 mb-4">负责浙商银行内部办公自动化（OA）系统的开发与维护，涵盖流程发起、消息看板、邮箱集成、周计划安排等功能。</p>
+                        
+                        <div>
+                            <h4 class="font-bold text-slate-800 mb-1">职责与成果：</h4>
+                            <ul class="list-disc pl-5 text-slate-700 space-y-1">
+                                <li>负责OA系统各功能模块的开发与配置</li>
+                                <li>对接其他部门系统接口，实现跨系统数据流转</li>
+                                <li>配置并优化OA流程引擎，提升审批效率</li>
+                                <li>支持全行员工日常办公需求，提升协同效率</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <!-- 项目8 -->
+                    <div class="timeline-item">
+                        <div class="flex flex-col md:flex-row md:items-start md:justify-between mb-2">
+                            <h3 class="text-xl font-bold text-slate-800">8. 浙商银行督办系统开发</h3>
+                            <div class="text-slate-600 font-medium">
+                                浙商银行 | 2022年7月 - 2024年9月
+                            </div>
+                        </div>
+                        <p class="text-slate-700 mb-4">开发全新的督办管理系统，用于上级对下级工作任务的发布、立项、逐层审批、执行反馈与闭环管理。</p>
+                        
+                        <div class="mb-3">
+                            <h4 class="font-bold text-slate-800 mb-1">技术难点：</h4>
+                            <div class="flex flex-wrap">
+                                <span class="skill-tag bg-red-50 text-red-700">Flowable流程引擎重构</span>
+                                <span class="skill-tag bg-red-50 text-red-700">复杂审批逻辑</span>
+                                <span class="skill-tag bg-red-50 text-red-700">任务状态追踪</span>
+                            </div>
+                        </div>
+                        
+                        <div>
+                            <h4 class="font-bold text-slate-800 mb-1">职责与成果：</h4>
+                            <ul class="list-disc pl-5 text-slate-700 space-y-1">
+                                <li>主导Flowable流程引擎的重构工作</li>
+                                <li>负责系统中最复杂逻辑模块的设计与实现</li>
+                                <li>实现任务创建、分配、执行、反馈全链路跟踪</li>
+                                <li>系统成功上线并广泛应用于各业务条线</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <!-- 项目9 -->
+                    <div class="timeline-item">
+                        <div class="flex flex-col md:flex-row md:items-start md:justify-between mb-2">
+                            <h3 class="text-xl font-bold text-slate-800">9. 铁科经纬内部平台开发与AI优化</h3>
+                            <div class="text-slate-600 font-medium">
+                                铁科经纬（西安）技术有限公司 | 2025年1月 - 2025年7月
+                            </div>
+                        </div>
+                        <p class="text-slate-700 mb-4">负责公司内部开发测试平台与DevOps平台的迭代升级，推动AI在软件工程中的应用。</p>
+                        
+                        <div class="mb-3">
+                            <h4 class="font-bold text-slate-800 mb-1">技术栈：</h4>
+                            <div class="flex flex-wrap">
+                                <span class="skill-tag">Spring Cloud</span>
+                                <span class="skill-tag">MinIO</span>
+                                <span class="skill-tag">Redis</span>
+                                <span class="skill-tag">MQ</span>
+                                <span class="skill-tag">Keycloak</span>
+                                <span class="skill-tag">Gateway</span>
+                                <span class="skill-tag">K8S+Docker</span>
+                                <span class="skill-tag">Jenkins</span>
+                                <span class="skill-tag">SonarQube</span>
+                            </div>
+                        </div>
+                        
+                        <div>
+                            <h4 class="font-bold text-slate-800 mb-1">职责与成果：</h4>
+                            <ul class="list-disc pl-5 text-slate-700 space-y-1">
+                                <li>主导DevOps平台的功能迭代与Arm64架构适配</li>
+                                <li>为多个铁路局客户进行定制化功能开发</li>
+                                <li><strong>AI赋能开发</strong>：以Swagger实体类为数据源，结合代码与数据库结构进行系统优化</li>
+                                <li>应用 <code>ndrej-karpathy-skills:karpathy-guidelines</code> 作为AI行为约束准则</li>
+                                <li>使用自然语言指令驱动AI生成MCP与Agent，完成用户登录后自动查询项目任务进度、创建新任务并智能分配</li>
+                                <li>自动生成Flowable工作流模块，并作为独立微服务部署运行</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- 自我评价 -->
+            <section class="section-card p-6 md:p-8">
+                <h2 class="text-2xl font-bold text-slate-800 mb-6 section-title">自我评价</h2>
+                
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                    <div class="bg-blue-50 p-5 rounded-xl">
+                        <div class="flex items-center mb-3">
+                            <div class="w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center mr-3">
+                                <i class="fas fa-graduation-cap text-blue-600"></i>
+                            </div>
+                            <h3 class="text-lg font-bold text-slate-800">学习上</h3>
+                        </div>
+                        <p class="text-slate-700">热爱编程，对软件开发与代码编写抱有高度热情；乐于钻研不熟悉的新技术，始终保持积极进取的学习心态，具备良好的技术成长潜力。</p>
+                    </div>
+                    
+                    <div class="bg-green-50 p-5 rounded-xl">
+                        <div class="flex items-center mb-3">
+                            <div class="w-10 h-10 rounded-full bg-green-100 flex items-center justify-center mr-3">
+                                <i class="fas fa-heart text-green-600"></i>
+                            </div>
+                            <h3 class="text-lg font-bold text-slate-800">生活中</h3>
+                        </div>
+                        <p class="text-slate-700">性格随和，善于沟通，喜欢开玩笑；拥有阳光乐观的心态，抗压能力强，不易因外界压力或突发问题产生情绪波动，具备良好的团队融合能力。</p>
+                    </div>
+                    
+                    <div class="bg-amber-50 p-5 rounded-xl">
+                        <div class="flex items-center mb-3">
+                            <div class="w-10 h-10 rounded-full bg-amber-100 flex items-center justify-center mr-3">
+                                <i class="fas fa-briefcase text-amber-600"></i>
+                            </div>
+                            <h3 class="text-lg font-bold text-slate-800">工作中</h3>
+                        </div>
+                        <p class="text-slate-700">做事有始有终，注重目标达成；对于既定任务与个人承诺全力以赴，力求完美交付；责任心强，执行力高，能够在高强度环境下保持高效产出。</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+        
+        <!-- 页脚 -->
+        <footer class="mt-12 pt-8 border-t border-slate-200 text-center text-slate-500 text-sm">
+
+        </footer>
+    </div>
+    
+    <!-- 打印按钮 -->
+    <div class="print-button" id="printButton" title="打印简历">
+        <i class="fas fa-print text-xl"></i>
+    </div>
+    
+    <script>
+        // 打印功能
+        document.getElementById('printButton').addEventListener('click', function() {
+            window.print();
+        });
+        
+        // 添加一些简单的交互效果
+        document.addEventListener('DOMContentLoaded', function() {
+            // 为技能标签添加点击效果
+            const skillTags = document.querySelectorAll('.skill-tag');
+            skillTags.forEach(tag => {
+                tag.addEventListener('click', function() {
+                    this.style.transform = 'scale(0.95)';
+                    setTimeout(() => {
+                        this.style.transform = '';
+                    }, 150);
+                });
+            });
+            
+            // 为时间轴项目添加悬停效果
+            const timelineItems = document.querySelectorAll('.timeline-item');
+            timelineItems.forEach(item => {
+                item.addEventListener('mouseenter', function() {
+                    const dot = this.querySelector('.timeline-item::before');
+                    if (dot) {
+                        this.style.setProperty('--dot-color', '#2563eb');
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
