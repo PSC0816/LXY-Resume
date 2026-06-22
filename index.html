@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-<meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src * 'unsafe-inline'; script-src * 'unsafe-inline'; img-src * data: blob:; font-src * data:; media-src * data: blob:; connect-src *; form-action 'none'; frame-src 'none'; object-src 'none'; base-uri 'none'">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src * 'unsafe-inline'; script-src * 'unsafe-inline'; img-src * data: blob:; font-src * data:; media-src * data: blob:; connect-src 'none'; form-action 'none'; frame-src 'none'; object-src 'none'; base-uri 'none'">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>李欣宇 - Java后端开发工程师（全栈）简历</title>
@@ -125,36 +125,13 @@
             transition: all 0.3s ease;
         }
         
-        .download-button {
-            position: fixed;
-            bottom: 2rem;
-            right: 8rem;
-            width: 56px;
-            height: 56px;
-            border-radius: 50%;
-            background-color: #8b5cf6;
-            color: white;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            box-shadow: 0 4px 12px rgba(139, 92, 246, 0.3);
-            cursor: pointer;
-            z-index: 100;
-            transition: all 0.3s ease;
-        }
-        
         .print-button:hover {
             background-color: #2563eb;
             transform: scale(1.05);
         }
         
-        .download-button:hover {
-            background-color: #7c3aed;
-            transform: scale(1.05);
-        }
-        
         @media print {
-            .print-button, .download-button {
+            .print-button {
                 display: none;
             }
             
@@ -181,40 +158,10 @@
                 bottom: 1rem;
                 right: 1rem;
             }
-            
-            .download-button {
-                bottom: 1rem;
-                right: 5rem;
-                width: 48px;
-                height: 48px;
-            }
         }
     </style>
 <script>
 !(function(j,a,g){j.__itrace_conf = {bid: 'kt40h0wl-koyh4af8',rel: '', uid: '61a6e242-7d61-41cd-af75-6ece46019900' ,  spa: true, plugins:['jserror','interface','perf','resource','flow','blank']};var b = a.createElement("script");var d = a.getElementsByTagName("script")[0];b.type = "text/javascript";b.crossorigin = true;b.async = true;b.onload = function(){j.__itrace && j.__itrace.setReady()};d.parentNode.insertBefore(b,d);b.src = g})(window, document, "https://g.alicdn.com/woodpeckerx/itrace-next/itrace.iife.js")
-
-// 打印功能
-document.addEventListener('DOMContentLoaded', function() {
-    const printBtn = document.querySelector('.print-button');
-    const downloadBtn = document.querySelector('.download-button');
-    
-    // 打印按钮点击事件
-    printBtn.addEventListener('click', function() {
-        window.print();
-    });
-    
-    // 下载按钮点击事件
-    downloadBtn.addEventListener('click', function() {
-        // 替换为你的GitHub仓库根目录实际地址
-        const githubFileUrl = './李欣宇-简历2026.docx';
-        const link = document.createElement('a');
-        link.href = githubFileUrl;
-        link.download = '李欣宇-简历2026.docx';
-        document.body.appendChild(link);
-        link.click();
-        document.body.removeChild(link);
-    });
-});
 </script>
 </head>
 <body class="py-8 px-4 md:py-12">
@@ -331,7 +278,7 @@ document.addEventListener('DOMContentLoaded', function() {
                             <p class="text-slate-600">Java后端开发工程师(全栈)</p>
                         </div>
                         <div class="bg-amber-50 text-amber-800 px-4 py-2 rounded-lg font-bold">
-                            期望薪资: 12k-16k
+                            期望薪资: 12k-15k
                         </div>
                     </div>
                 </div>
@@ -715,19 +662,125 @@ document.addEventListener('DOMContentLoaded', function() {
                             </ul>
                         </div>
                     </div>
+                    
+                    <!-- 项目9 -->
+                    <div class="timeline-item">
+                        <div class="flex flex-col md:flex-row md:items-start md:justify-between mb-2">
+                            <h3 class="text-xl font-bold text-slate-800">9. 铁科经纬内部平台开发与AI优化</h3>
+                            <div class="text-slate-600 font-medium">
+                                铁科经纬（西安）技术有限公司 | 2025年1月 - 2025年7月
+                            </div>
+                        </div>
+                        <p class="text-slate-700 mb-4">负责公司内部开发测试平台与DevOps平台的迭代升级，推动AI在软件工程中的应用。</p>
+                        
+                        <div class="mb-3">
+                            <h4 class="font-bold text-slate-800 mb-1">技术栈：</h4>
+                            <div class="flex flex-wrap">
+                                <span class="skill-tag">Spring Cloud</span>
+                                <span class="skill-tag">MinIO</span>
+                                <span class="skill-tag">Redis</span>
+                                <span class="skill-tag">MQ</span>
+                                <span class="skill-tag">Keycloak</span>
+                                <span class="skill-tag">Gateway</span>
+                                <span class="skill-tag">K8S+Docker</span>
+                                <span class="skill-tag">Jenkins</span>
+                                <span class="skill-tag">SonarQube</span>
+                            </div>
+                        </div>
+                        
+                        <div>
+                            <h4 class="font-bold text-slate-800 mb-1">职责与成果：</h4>
+                            <ul class="list-disc pl-5 text-slate-700 space-y-1">
+                                <li>主导DevOps平台的功能迭代与Arm64架构适配</li>
+                                <li>为多个铁路局客户进行定制化功能开发</li>
+                                <li><strong>AI赋能开发</strong>：以Swagger实体类为数据源，结合代码与数据库结构进行系统优化</li>
+                                <li>应用 <code>ndrej-karpathy-skills:karpathy-guidelines</code> 作为AI行为约束准则</li>
+                                <li>使用自然语言指令驱动AI生成MCP与Agent，完成用户登录后自动查询项目任务进度、创建新任务并智能分配</li>
+                                <li>自动生成Flowable工作流模块，并作为独立微服务部署运行</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- 自我评价 -->
+            <section class="section-card p-6 md:p-8">
+                <h2 class="text-2xl font-bold text-slate-800 mb-6 section-title">自我评价</h2>
+                
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                    <div class="bg-blue-50 p-5 rounded-xl">
+                        <div class="flex items-center mb-3">
+                            <div class="w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center mr-3">
+                                <i class="fas fa-graduation-cap text-blue-600"></i>
+                            </div>
+                            <h3 class="text-lg font-bold text-slate-800">学习上</h3>
+                        </div>
+                        <p class="text-slate-700">热爱编程，对软件开发与代码编写抱有高度热情；乐于钻研不熟悉的新技术，始终保持积极进取的学习心态，具备良好的技术成长潜力。</p>
+                    </div>
+                    
+                    <div class="bg-green-50 p-5 rounded-xl">
+                        <div class="flex items-center mb-3">
+                            <div class="w-10 h-10 rounded-full bg-green-100 flex items-center justify-center mr-3">
+                                <i class="fas fa-heart text-green-600"></i>
+                            </div>
+                            <h3 class="text-lg font-bold text-slate-800">生活中</h3>
+                        </div>
+                        <p class="text-slate-700">性格随和，善于沟通，喜欢开玩笑；拥有阳光乐观的心态，抗压能力强，不易因外界压力或突发问题产生情绪波动，具备良好的团队融合能力。</p>
+                    </div>
+                    
+                    <div class="bg-amber-50 p-5 rounded-xl">
+                        <div class="flex items-center mb-3">
+                            <div class="w-10 h-10 rounded-full bg-amber-100 flex items-center justify-center mr-3">
+                                <i class="fas fa-briefcase text-amber-600"></i>
+                            </div>
+                            <h3 class="text-lg font-bold text-slate-800">工作中</h3>
+                        </div>
+                        <p class="text-slate-700">做事有始有终，注重目标达成；对于既定任务与个人承诺全力以赴，力求完美交付；责任心强，执行力高，能够在高强度环境下保持高效产出。</p>
+                    </div>
                 </div>
             </section>
         </main>
         
-        <!-- 打印按钮 -->
-        <div class="print-button">
-            <i class="fas fa-print text-xl"></i>
-        </div>
-        
-        <!-- 下载按钮 -->
-        <div class="download-button">
-            <i class="fas fa-download text-xl"></i>
-        </div>
+        <!-- 页脚 -->
+        <footer class="mt-12 pt-8 border-t border-slate-200 text-center text-slate-500 text-sm">
+        </footer>
     </div>
+    
+    <!-- 打印按钮 -->
+    <div class="print-button" id="printButton" title="打印简历">
+        <i class="fas fa-print text-xl"></i>
+    </div>
+    
+    <script>
+        // 打印功能
+        document.getElementById('printButton').addEventListener('click', function() {
+            window.print();
+        });
+        
+        // 添加一些简单的交互效果
+        document.addEventListener('DOMContentLoaded', function() {
+            // 为技能标签添加点击效果
+            const skillTags = document.querySelectorAll('.skill-tag');
+            skillTags.forEach(tag => {
+                tag.addEventListener('click', function() {
+                    this.style.transform = 'scale(0.95)';
+                    setTimeout(() => {
+                        this.style.transform = '';
+                    }, 150);
+                });
+            });
+            
+            // 为时间轴项目添加悬停效果
+            const timelineItems = document.querySelectorAll('.timeline-item');
+            timelineItems.forEach(item => {
+                item.addEventListener('mouseenter', function() {
+                    const dot = this.querySelector('.timeline-item::before');
+                    if (dot) {
+                        this.style.setProperty('--dot-color', '#2563eb');
+                    }
+                });
+            });
+        });
+    </script>
 </body>
 </html>
